@@ -41,7 +41,7 @@
             // 
             this.txt_studentnumber.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_studentnumber.Location = new System.Drawing.Point(420, 167);
-            this.txt_studentnumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_studentnumber.Margin = new System.Windows.Forms.Padding(4);
             this.txt_studentnumber.Name = "txt_studentnumber";
             this.txt_studentnumber.Size = new System.Drawing.Size(212, 38);
             this.txt_studentnumber.TabIndex = 3;
@@ -49,8 +49,8 @@
             // txt_password
             // 
             this.txt_password.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_password.Location = new System.Drawing.Point(321, 214);
-            this.txt_password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_password.Location = new System.Drawing.Point(420, 213);
+            this.txt_password.Margin = new System.Windows.Forms.Padding(4);
             this.txt_password.Name = "txt_password";
             this.txt_password.PasswordChar = '*';
             this.txt_password.Size = new System.Drawing.Size(212, 38);
@@ -59,8 +59,8 @@
             // txt_studentname
             // 
             this.txt_studentname.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_studentname.Location = new System.Drawing.Point(376, 261);
-            this.txt_studentname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_studentname.Location = new System.Drawing.Point(420, 259);
+            this.txt_studentname.Margin = new System.Windows.Forms.Padding(4);
             this.txt_studentname.Name = "txt_studentname";
             this.txt_studentname.Size = new System.Drawing.Size(212, 38);
             this.txt_studentname.TabIndex = 5;
@@ -68,8 +68,8 @@
             // txt_course
             // 
             this.txt_course.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_course.Location = new System.Drawing.Point(257, 374);
-            this.txt_course.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_course.Location = new System.Drawing.Point(420, 370);
+            this.txt_course.Margin = new System.Windows.Forms.Padding(4);
             this.txt_course.Name = "txt_course";
             this.txt_course.Size = new System.Drawing.Size(212, 38);
             this.txt_course.TabIndex = 6;
@@ -80,7 +80,7 @@
             this.btn_signup.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_signup.ForeColor = System.Drawing.Color.White;
             this.btn_signup.Location = new System.Drawing.Point(808, 450);
-            this.btn_signup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_signup.Margin = new System.Windows.Forms.Padding(4);
             this.btn_signup.Name = "btn_signup";
             this.btn_signup.Size = new System.Drawing.Size(163, 49);
             this.btn_signup.TabIndex = 7;
@@ -99,6 +99,8 @@
             this.lblerror.Size = new System.Drawing.Size(142, 27);
             this.lblerror.TabIndex = 8;
             this.lblerror.Text = "Invalid Show";
+            this.lblerror.UseMnemonic = false;
+            this.lblerror.Visible = false;
             // 
             // Registration
             // 
@@ -114,7 +116,7 @@
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.txt_studentnumber);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Registration";
             this.Text = "Registration";
             this.ResumeLayout(false);

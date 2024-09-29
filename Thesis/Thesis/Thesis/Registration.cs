@@ -35,6 +35,7 @@ namespace Thesis
                 string.IsNullOrWhiteSpace(studentName) ||
                 string.IsNullOrWhiteSpace(course))
             {
+                lblerror.Visible = true;
                 lblerror.Text = "Please fill in all fields.";
                 return;
             }
@@ -45,6 +46,7 @@ namespace Thesis
             }
             else
             {
+                lblerror.Visible = true;
                 lblerror.Text = "Sign-up failed. Please try again.";
             }
         }
